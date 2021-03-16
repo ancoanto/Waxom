@@ -394,6 +394,113 @@ line-height: 32px;
 font-weight: 300;
 color: #8c8c8c;
 }
+.statistik {
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    display: flex;
+    justify-content: space-around;
+}
+.statistik__card {
+    padding-top: 69px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.statistik__zahl {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Montserrat;
+font-size: 48px;
+line-height: 36px;
+font-weight: 200;
+color: #ffffff;
+}
+.statistik__info {
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Montserrat;
+font-size: 14px;
+line-height: 20px;
+font-weight: 300;
+text-transform: uppercase;
+color: #c7b299;
+}
+.statistik__stripe {
+    width: 30px;
+height: 2px;
+background-color: #ffffff;
+}
+.posts__h2 {
+    padding-top: 82px;
+    text-align: center;
+    font-family: Raleway;
+font-size: 30px;
+line-height: 1.2;
+font-weight: 600;
+color: #555555;
+}
+.posts__p {
+    margin: 0 auto;
+    text-align: center;
+    width: 760px;
+    font-family: Montserrat;
+    padding-top: 30px;
+    padding-bottom: 40px;
+font-size: 16px;
+line-height: 28px;
+font-weight: 300;
+color: #8c8c8c;
+}
+.post_recent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.posts__card {
+    background-color: rgba(119,119,119,0.0);
+border: 1px solid #f8f8f8;
+width: 370px;
+padding-bottom: 33px;
+}
+.posts__card__h3 {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: Raleway;
+font-size: 20px;
+line-height: 1.2;
+font-weight: 500;
+color: #555555;
+}
+.posts__card__p {
+    padding-top: 19px;
+    padding-bottom: 27px;
+    padding-left: 30px;
+    font-family: Montserrat;
+font-size: 14px;
+line-height: 22px;
+font-weight: 300;
+color: #8c8c8c;
+}
+.posts__card__link {
+    padding-left: 30px;
+    font-family: Montserrat;
+font-size: 14px;
+line-height: 20px;
+font-weight: 300;
+color: #c7b299;
+}
+.client {
+    background-image: url(../images/bg_photo.png);
+    height: 489px;
+    background-size: cover;
+}
+.client_df {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
 .mobile__li::before {
     content: url(../icons/before.png);
     position: absolute;
@@ -402,4 +509,7 @@ color: #8c8c8c;
 }
 ul {
     list-style-type: none;
+}
+a {
+    text-decoration: none;
 }
