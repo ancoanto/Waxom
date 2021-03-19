@@ -43,6 +43,7 @@ font-size: 14px;
 line-height: 1.2;
 font-weight: 300;
 color: #ffffff;
+transition: all 0.3s;
 }
 .header__h2 {
     font-size: 36px;
@@ -258,6 +259,7 @@ background-color: rgba(17,17,17,0.0);
 border: 1px solid #ebebeb;
 border-radius: 3px;
 margin-left: 10px;
+transition: all 0.5s;
 }
 .main__buttons {
     display: flex;
@@ -267,6 +269,7 @@ margin-left: 10px;
 }
 .card {
     background-color: #fbfaf8;
+    transition: all 0.5s;
 }
 .card__h3 {
     padding-top: 30px;
@@ -621,6 +624,7 @@ color: #555555;
     .card__p {
         color: #c7b299;
     }
+    transform: scale(1.1) rotate(360deg);
 }
 .mobile__li::before {
     content: url(../icons/before.png);
@@ -628,6 +632,15 @@ color: #555555;
     left: -50px;
     top: 5px;
 }
+// .left_image:hover {
+//     transform: scale(1.2);
+// }
+.center_image:hover {
+    transform: scale(1.2);
+}
+// .card__img:hover {
+//     transform: scale(1.1);
+// }
 ul {
     list-style-type: none;
 }

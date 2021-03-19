@@ -61,6 +61,8 @@
   line-height: 1.2;
   font-weight: 300;
   color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .header__h2 {
@@ -333,6 +335,8 @@
   border: 1px solid #ebebeb;
   border-radius: 3px;
   margin-left: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .main__buttons {
@@ -348,6 +352,8 @@
 
 .card {
   background-color: #fbfaf8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .card__h3 {
@@ -784,6 +790,8 @@
 
 .card:hover {
   background-color: #362f2d;
+  -webkit-transform: scale(1.1) rotate(360deg);
+          transform: scale(1.1) rotate(360deg);
 }
 
 .card:hover .card__h3 {
@@ -799,6 +807,11 @@
   position: absolute;
   left: -50px;
   top: 5px;
+}
+
+.center_image:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 ul {
