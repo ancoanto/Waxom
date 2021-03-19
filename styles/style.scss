@@ -38,6 +38,11 @@
 }
 .links__item {
     padding-left: 30px;
+    font-family: Montserrat;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 300;
+color: #ffffff;
 }
 .header__h2 {
     font-size: 36px;
@@ -260,7 +265,13 @@ margin-left: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.card {
+    background-color: #fbfaf8;
+}
 .card__h3 {
+    padding-top: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
     font-family: Raleway;
 font-size: 20px;
 line-height: 1.2;
@@ -268,12 +279,17 @@ font-weight: 500;
 color: #c7b299;
 }
 .card__p {
+    padding-bottom: 27px;
+    padding-left: 30px;
     font-family: Montserrat;
 font-size: 14px;
 line-height: 20px;
 font-weight: 300;
 color: #d1d1d1;
 }
+// .card__text {
+//     // background-color: #fbfaf8;
+// }
 .card__top {
     display: flex;
     justify-content: space-around;
@@ -581,6 +597,30 @@ color: #555555;
 }
 .footer__bottom__text_white {
     color: #c7b299;
+}
+.links__item:hover {
+    color: #c7b299;
+}
+.orientation__item:hover {
+    .orientation__h2 {
+        color: #c7b299;
+    }
+    .band {
+        background-color: #c7b299;
+    }
+}
+.main__button:hover {
+    background-color: #998675;
+    color: #ffffff;
+}
+.card:hover {
+    background-color: #362f2d;
+    .card__h3 {
+        color: #ffffff;
+    }
+    .card__p {
+        color: #c7b299;
+    }
 }
 .mobile__li::before {
     content: url(../icons/before.png);
