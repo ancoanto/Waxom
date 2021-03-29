@@ -293,6 +293,7 @@
   margin-top: 50px;
   margin-right: 30px;
   border: none;
+  outline: none;
 }
 
 .main {
@@ -417,6 +418,7 @@
       -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
+  outline: none;
 }
 
 .img_video {
@@ -688,12 +690,23 @@
   padding: 80px 0;
 }
 
+.ftc2 {
+  margin: 0 40px;
+}
+
+.ftc3 {
+  margin-right: 33px;
+}
+
 .footer__top__card__p {
+  width: 275px;
   font-family: Montserrat;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   color: #555555;
+  padding-top: 29px;
+  padding-bottom: 33px;
 }
 
 .footer__top__card__link {
@@ -710,6 +723,7 @@
   line-height: 1.2;
   font-weight: 700;
   color: #ffffff;
+  padding-bottom: 30px;
 }
 
 .footer__post__h5 {
@@ -732,6 +746,7 @@
   width: 270px;
   height: 2px;
   background-color: #252525;
+  margin: 20px 0;
 }
 
 .nick {
@@ -783,6 +798,10 @@
 
 .footer__bottom__text_white {
   color: #c7b299;
+}
+
+.vert {
+  padding: 0 10px;
 }
 
 .links__item:hover {
@@ -854,6 +873,18 @@
 
 .posts__card:hover .posts__card__p {
   color: #ffffff;
+}
+
+.footer__post:hover .footer__post__h5 {
+  color: #ffffff;
+}
+
+.footer__post:hover .footer__post__p {
+  color: #c7b299;
+}
+
+.fblink:hover {
+  color: #c7b299;
 }
 
 ul {
